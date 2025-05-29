@@ -6,13 +6,16 @@ hero:
   name: "duanlvxin's notebook"
   text: "a notebook site"
   tagline: ""
+  image:
+    src: /bg.jpg
+    alt: bg
   actions:
     - theme: brand
       text: 前端开发
       link: /fe/nodejs/index
-    # - theme: alt
-    #   text: API Examples
-    #   link: /api-examples
+    - theme: alt
+      text: 博客
+      link: https://duanlvxin.github.io
 
 # features:
 #   - title: Feature A
