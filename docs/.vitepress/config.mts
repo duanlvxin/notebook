@@ -5,6 +5,7 @@ export default defineConfig({
   title: "duanlvxin's notebook",
   description: "a notebook site",
   base: '/notebook/',
+  head: [['link', { rel: 'icon', href: '/notebook/favicon.png' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
